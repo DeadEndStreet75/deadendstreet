@@ -56,7 +56,7 @@
     opacity: 0.3;
   }
 
-    .hero-overlay {
+  .hero-overlay {
     position: absolute;
     top: 120px;
     left: 40px;
@@ -332,6 +332,17 @@
     .contact-grid { 
       grid-template-columns: 1fr; 
     }
+    .hero-overlay {
+      top: 80px;
+      left: 20px;
+    }
+    .hero-overlay-photo {
+      width: 120px;
+      height: 120px;
+    }
+    .hero-overlay-text {
+      font-size: 1.3rem;
+    }
   }
 </style>
 </head>
@@ -347,10 +358,11 @@
 
 <div class="hero">
   <div class="hero-bg"></div>
-<div class="hero-overlay">
-  <div class="hero-overlay-photo"></div>
-  <div class="hero-overlay-text">Featuring Bradlee</div>
-</div>
+  
+  <div class="hero-overlay">
+    <div class="hero-overlay-photo"></div>
+    <div class="hero-overlay-text">Featuring Bradlee</div>
+  </div>
   
   <div class="hero-content">
     <img src="dead-end-street-logo.jpg" alt="Dead End Street Logo" class="hero-logo-image">
@@ -556,6 +568,3 @@
 </script>
 </body>
 </html>
-
-
-
