@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Dead End Street | Country Rock</title>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,400&family=Oswald:wght@300;400;600&family=Lora:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,400&family=Oswald:wght@300;400;600&family=Lora:ital,wght@0,400;0,600;1,400&family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
 <style>
   :root {
     --burnt: #c45a00;
@@ -39,11 +39,11 @@
   .hero-bg {
   position: absolute;
   inset: 0;
-  background-image: url('Band Photo 2048 x 2058.jpg');
+  background-image: url('Band_Photo_2048_x_2058_feat_Bradlee.jpg');
   background-size: cover;
   background-position: center;
   z-index: 1;
-  }
+}
 
   .hero-bg::after {
     content: '';
@@ -212,6 +212,17 @@
     display: block;
     width: 100%;
     border-radius: 4px;
+    overflow: hidden;
+    transition: border-color 0.2s;
+  }
+
+  .track-embed:hover {
+    border-color: rgba(232,160,32,0.4);
+  }
+
+  .track-embed iframe {
+    display: block;
+    width: 100%;
   }
 
   /* ── ABOUT ── */
@@ -304,31 +315,6 @@
       grid-template-columns: 1fr; 
     }
   }
-.bradlee-overlay {
-  position: absolute;
-  top: 80px;
-  left: 30px;
-  z-index: 4;
-  text-align: center;
-}
-
-.bradlee-overlay img {
-  width: 140px;
-  height: 140px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 3px solid rgba(232,160,32,0.5);
-  filter: drop-shadow(0 4px 10px rgba(0,0,0,0.8));
-}
-
-.bradlee-overlay p {
-  font-family: 'Lora', serif;
-  font-style: italic;
-  color: white;
-  font-size: 1.1rem;
-  margin-top: 8px;
-  text-shadow: 0 2px 6px rgba(0,0,0,0.9);
-}  
 </style>
 </head>
 <body>
@@ -343,10 +329,7 @@
 
 <div class="hero">
   <div class="hero-bg"></div>
-  <div class="bradlee-overlay">
-  <img src="Brad<img src="Brad%20Photo-2.jpg" alt="Featuring Bradlee"> Photo-2.jpg" alt="Featuring Bradlee">
-  <p>Featuring Bradlee</p>
-</div>
+  
   <div class="hero-content">
     <img src="dead-end-street-logo.jpg" alt="Dead End Street Logo" class="hero-logo-image">
     <h1 class="hero-logo">Dead End Street</h1>
@@ -389,9 +372,8 @@
 
     <div class="track-embed">
       <div class="track-label">05 &mdash; Lucky in Kentucky</div>
-      <iframe width="100%" height="120" scrolling="no" frameborder="no" allow="autoplay"
-        src="https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/dead-end-street-831675528/lucky-in-kentucky&color=%23c45a00&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false"></iframe>
-    </div>
+     <iframe width="100%" height="120" scrolling="no" frameborder="no" allow="autoplay"
+  src="https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/dead-end-street-831675528/lucky-in-kentucky&color=%23c45a00&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false"></iframe></div>
 
     <div class="track-embed">
       <div class="track-label">06 &mdash; Why Won't You Love Me</div>
@@ -439,6 +421,30 @@
       <div class="track-label">13 &mdash; When They're No Longer There</div>
       <iframe width="100%" height="120" scrolling="no" frameborder="no" allow="autoplay"
         src="https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/dead-end-street-831675528/when-theyre-no-longer-there-v1&color=%23c45a00&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false"></iframe>
+    </div>
+
+    <div class="track-embed">
+      <div class="track-label">14 &mdash; In the Doghouse</div>
+      <iframe width="100%" height="120" scrolling="no" frameborder="no" allow="autoplay"
+        src="https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/dead-end-street-831675528/in-the-doghouse-remastered-wav&color=%23c45a00&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false"></iframe>
+    </div>
+
+    <div class="track-embed">
+      <div class="track-label">15 &mdash; Nothin Much to See</div>
+      <iframe width="100%" height="120" scrolling="no" frameborder="no" allow="autoplay"
+        src="https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/dead-end-street-831675528/nothin-much-to-see&color=%23c45a00&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false"></iframe>
+    </div>
+
+    <div class="track-embed">
+      <div class="track-label">16 &mdash; Sometimes It's What You Do</div>
+      <iframe width="100%" height="120" scrolling="no" frameborder="no" allow="autoplay"
+        src="https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/dead-end-street-831675528/sometimes-its-what-you-do&color=%23c45a00&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false"></iframe>
+    </div>
+
+    <div class="track-embed">
+      <div class="track-label">17 &mdash; Sweet Nothins</div>
+      <iframe width="100%" height="120" scrolling="no" frameborder="no" allow="autoplay"
+        src="https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/dead-end-street-831675528/sweet-nothins&color=%23c45a00&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false"></iframe>
     </div>
 
   </div>
